@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: palegreen;
+   
+}
+
+h1, h2{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+}
+
+input[type="text"],
+input[type="password"],
+select[name="select"],
+select[name="user_role"]{
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+}
+textarea[name="user_address"]{
+    border-radius: 5px;
+    width: 520px;
+    padding: 15px;
+}
+button[type="submit"]:hover{
+    background-color: chartreuse;
+    font-size: large;
+    cursor: pointer;
+}
+.uploadFile, .selectRole
+{
+    border: 2px black solid;
+    width: 520px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 35%;
+}
+.headerSection{
+    padding-bottom: 15px;
+}
+.registrationSubmit{
+    padding: 25px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px ;
+    font-size: medium;
+    background-color: #B2FFFF;
+}
+.loginSubmit{
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 5px ;
+    font-size: medium;
+    background-color: #B2FFFF;
+}
+
