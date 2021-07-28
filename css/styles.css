@@ -1,15 +1,28 @@
+html{
+    background-image: linear-gradient(to right, #c0c0aa, #1cefff);
+}
+
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: palegreen;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 h1, h2{
     padding-top: 25px ;
     padding-bottom: 25px;
+}
+
+h1{
+    border-bottom: coral 8px solid;
+    color: whitesmoke;
+    background-image: linear-gradient(to left, #0f0c29,#302B62,#24243e);
+
+}
+
+h2{
+    color: crimson ;
 }
 
 input[type="text"],
@@ -25,11 +38,13 @@ textarea[name="user_address"]{
     width: 520px;
     padding: 15px;
 }
-button[type="submit"]:hover{
-    background-color: chartreuse;
+
+button[type="submit"]:hover {
+    background-color: blanchedalmond;
     font-size: large;
     cursor: pointer;
 }
+
 .uploadFile, .selectRole
 {
     border: 2px black solid;
